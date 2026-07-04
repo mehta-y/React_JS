@@ -3,7 +3,7 @@ import { useState } from "react"
 function App() {
   const [color , setColor] = useState("blue")
   return (
-    <div className="w-full h-screen duration-200"
+    <div className="w-full h-screen duration-900"
     style={{backgroundColor: color}}
     >
       <div className="fixed flex flexwrap bottom-12 justify-center inset-x-0 px-2">
